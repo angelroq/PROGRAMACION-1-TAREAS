@@ -10,7 +10,6 @@ int main()
     float pesoEnKilogramos=0;
     float alturaEnMetros=0;
     float alturaEnPulgadas=0;
-    float indiceMasa=0;
     int opcionSeleccionada;
     float resultadoCalculadora;
     char salidaMenu;
@@ -25,7 +24,7 @@ int main()
         //Menu de opciones en calculadora IMC
         cout << "1. Peso en kilogramos" << endl;
         cout << "2. Peso en libras" << endl;
-        cout << "   Opcion: ";
+        cout << "   Opcion: "<<endl;
         cin >> opcionSeleccionada;
         // Estructuras condicionales
         if (opcionSeleccionada==1)
@@ -47,7 +46,7 @@ int main()
                 resultadoCalculadora = pesoEnKilogramos/(alturaEnMetros*alturaEnMetros);
                 break;
             case 2:
-                resultadoCalculadora = pesoEnLibras/(alturaEnPulgadas*alturaEnPulgadas);
+                resultadoCalculadora = (pesoEnLibras*703)/(alturaEnPulgadas*alturaEnPulgadas);
                 break;
             default:
                 cout << "Error opcion seleccionada" << endl;
