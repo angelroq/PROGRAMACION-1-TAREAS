@@ -20,7 +20,7 @@ Algoritmo football
 		// Genera los datos aleatorios
 		Para j<-1 Hasta 6 Con Paso 1 Hacer
 			Escribir estadisticas[j,1], '              'Sin Saltar
-			Para x<-1 Hasta 5 Con Paso 1 Hacer
+			Para x<-2 Hasta 5 Con Paso 1 Hacer
 				datos[j,x]<-azar(10)
 				Escribir datos[j,x], '               'Sin Saltar
 			FinPara
@@ -79,7 +79,7 @@ Algoritmo football
 		ganador5 <- datos[5,2]
 		ganador6 <- datos[6,2]
 		// Asigna los ganadores variables  los partidos ganados por equipo
-		Si ganador1>ganador2 Y ganador1>ganador3 Y ganador1>ganador4 Y ganador1>ganador5 Y ganador1>ganador6 Entonces
+		Si ganador1>ganador2 Y gbanador1>ganador3 Y ganador1>ganador4 Y ganador1>ganador5 Y ganador1>ganador6 Entonces
 			Escribir 'El ganador es el equipo: ', estadisticas[1,1]
 		SiNo
 			Si ganador2>ganador1 Y ganador2>ganador3 Y ganador2>ganador4 Y ganador2>ganador5 Y ganador2>ganador6 Entonces

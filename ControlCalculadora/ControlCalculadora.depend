@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1742394123 source:c:\users\angel r\desktop\programas de progra 1 2025\controlcalculadora\main.cpp
+	<iostream>
+	"calculadora.h"
+
+1742394426 c:\users\angel r\desktop\programas de progra 1 2025\controlcalculadora\include\calculadora.h
+	<iostream>
+
+1742379077 source:c:\users\angel r\desktop\programas de progra 1 2025\controlcalculadora\src\calculadora.cpp
+	"calculadora.h"
+
