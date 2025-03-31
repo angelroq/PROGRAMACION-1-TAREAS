@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1743391121 source:c:\users\angel r\desktop\programas de progra 1 2025\campeonato\main.cpp
+	<iostream>
+	<iostream>
+	<iomanip>
+	<cstdlib>
+	<ctime>
+	"rondas.h"
+
+1743391164 c:\users\angel r\desktop\programas de progra 1 2025\campeonato\include\rondas.h
+	<iostream>
+	<iomanip>
+	<cstdlib>
+	<ctime>
+
+1743391431 source:c:\users\angel r\desktop\programas de progra 1 2025\campeonato\src\rondas.cpp
+	"rondas.h"
+	<iostream>
+	<iomanip>
+	<cstdlib>
+	<ctime>
+
